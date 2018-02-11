@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Охраняется государством</title>
+        <meta charset="UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/ohrgos_mobile.css"/>
+    </head>
+    <body>
+        <div class="mobile_main_screen">Загрузка...</div>
+        <div class="mobile_main_screen_loading">Скачивание журнала... Пожалуйста подождите...</div>
+        
+        <div class="mobile_main_content">
+            <div id="new_journal_content_read">
+                <img src="images/arrow.png" style="position: absolute; top: 42px; left: 20px; z-index: 100;" onclick="location.assign('index.html')" />
+            </div>
+            <div id="parse_load_result" style="padding-top: 120px;"></div>
+        </div> 
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/data_read.js"></script>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Охраняется государством</title>
+        <meta charset="UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/ohrgos_mobile.css"/>
+        <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+
+        <style>
+            .swiper-container {
+                width: 100%;
+                height: auto;
+                margin: 100px 0px 0px 0px;
+                padding: 30px 0px;
+                background-color: #e2e3df;
+            }
+
+            .swiper-slide {
+                padding: 0px 0px;
+                width: 100%;
+            }
+            
+            .swiper-pagination-progress{
+                background: rgba(0,0,0,.25) !important;
+                position: fixed !important;
+                z-index: 10000 !important;
+            }
+            
+            .swiper-container-horizontal>.swiper-pagination-progress{
+                width: 100% !important;
+                height: 4px !important;
+                left: 0 !important;
+                bottom: 0 !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="mobile_main_screen">Загрузка...</div>
+        <div class="mobile_main_screen_loading">Скачивание журнала... Пожалуйста подождите...</div>
+
+        <div id="new_journal_content_read">
+            <img src="images/arrow.png" style="position: absolute; top: 42px; left: 20px; z-index: 100;" id="back_to_list" onclick="location.assign('index.html')" />
+        </div>
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper"></div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script type="text/javascript" src="js/data_read_full.js"></script>
+    </body>
+</html>

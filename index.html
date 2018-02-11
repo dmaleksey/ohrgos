@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Охраняется государством</title>
+        <meta charset="UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
+        <script src="js/swiper.js"></script>
+        <script src="js/jquery.touchSwipe.min.js"></script>
+
+        
+        
+        <link rel="stylesheet" type="text/css" href="css/ohrgos_mobile.css"/>
+        <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+        
+        
+        <!--<script type="text/javascript" src="js/sqlite-plugin.js" ></script>-->
+        
+        <link rel="stylesheet" type="text/css" href="fonts/banderaPro_italic/font.css">
+        <link rel="stylesheet" type="text/css" href="fonts/PFDinTextCompPro_Regular/font.css">
+        <link rel="stylesheet" type="text/css" href="fonts/PFDinTextCompPro_Medium/font.css">
+        <link rel="stylesheet" type="text/css" href="fonts/BanderaPro_BoldItalic/font.css">
+    </head>
+    <body>
+        <div class="mobile_main_screen">
+            <div style="position: relative; margin: auto; top: 40%;">
+                <p style="font-family: 'BanderaPro-BoldItalic'; font-size: 100%;">ОХРАНЯЕТСЯ ГОСУДАРСТВОМ</p>
+                <p style="text-transform: uppercase; font-family: 'PFDinTextCompPro-Regular'; font-size: 14px; line-height: 0px;">информационно-практический журнал</p>
+            </div>
+        </div>
+        <div class="mobile_main_screen_loading">Скачивание журнала... Пожалуйста подождите...</div>
+
+        <div class="mobile_main_content">
+            <div id="new_journal_content"></div>
+            <div id="my_journals" style="background-color: #FFF;"></div>
+            <div id="parse_load_result"></div>
+        </div>
+
+        <div class="mobile_read_content">
+            <div id="new_journal_content_read">
+                <img src="images/arrow.png" style="position: absolute; top: 42px; left: 20px; z-index: 100;" onclick="hideReadJournal();" />
+            </div>
+            <div id="parse_load_result_read" style="padding-top: 120px;"></div>
+        </div> 
+
+        <div class="mobile_full_journal">
+            <div id="new_journal_content_read_full">
+                <img src="images/arrow.png" style="position: absolute; top: 42px; left: 20px; z-index: 100;" id="back_to_list" onclick="hideFullJournal();" />
+            </div>
+
+            <div class="swiper-container">
+
+            </div>
+        </div>
+        <script type="text/javascript" src="js/data.js"></script>
+    </body>
+</html>
