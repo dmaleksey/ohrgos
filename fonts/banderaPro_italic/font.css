@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'BanderaPro-Italic';
+  src: url('BanderaPro-Italic.woff') format('woff'),
+       url('BanderaPro-Italic.ttf') format('truetype'),
+       url('BanderaPro-Italic.svg#BanderaPro-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

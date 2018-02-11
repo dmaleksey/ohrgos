@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MayaSamuelsPro-ExtraLight';
+  src: url('MayaSamuelsPro-ExtraLight.eot');
+  src: url('MayaSamuelsPro-ExtraLight.woff2') format('woff2'),
+       url('MayaSamuelsPro-ExtraLight.woff') format('woff'),
+       url('MayaSamuelsPro-ExtraLight.ttf') format('truetype'),
+       url('MayaSamuelsPro-ExtraLight.svg#MayaSamuelsPro-ExtraLight') format('svg'),
+       url('MayaSamuelsPro-ExtraLight.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
